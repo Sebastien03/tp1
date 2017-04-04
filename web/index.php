@@ -25,6 +25,10 @@ if ($page==='home') {
 	require ROOT.'/pages/index.php';
 }elseif ($page==='utilisateurs.index'){
 	require ROOT.'/pages/utilisateurs/index.php';
+}elseif ($page==='utilisateurs.service'){
+	require ROOT.'/pages/utilisateurs/service.php';
+}elseif ($page==='utilisateurs.delete'){
+	require ROOT.'/pages/utilisateurs/delete.php';
 
 }elseif ($page==='login') {
 	require ROOT.'/pages/users/login.php';
